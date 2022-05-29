@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="non-smoking_modal_wrap">
+      <div id="non-smoking_modal">
+        <span>금연 정보</span>
+        <button id="non-smoking_modal-close">X</button>
+      </div>
+    </div>
+    <div id="health-modal_wrap">
+      <div id="health-modal">
+        <span>건강 정보</span>
+        <button id="health-modal-close">X</button>
+      </div>
+    </div>
+    <div class="timer-wrap">
+      <header>
+        <h1>금연 도전</h1>
+        <section id="today">
+          <span></span>
+        </section>
+      </header>
+      <main>
+        <section id="timer">
+          <span id="day">00일</span>
+          <span id="hour">00시간</span>
+          <span id="min">00분</span>
+          <span id="sec">00초</span>
+        </section>
+        <section id="non-smoking">
+          <div id="number">
+            <span id="">참은 개비</span>
+            <span>0개비</span>
+          </div>
+          <div id="money">
+            <span>모은금액</span>
+            <span>0원</span>
+          </div>
+        </section>
+        <button id="btn"></button>
+      </main>
+
+      <footer>
+        <button id="non-smoking_info">금연 정보</button>
+        <button id="health-info">건강 정보</button>
+      </footer>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="modal.js"></script>
+  </body>
+</html>

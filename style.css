@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.timer-wrap {
+  margin: 0 auto;
+  width: 500px;
+  height: 700px;
+  border: 1px solid #3f3f3f;
+}
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  background-color: skyblue;
+}
+#timer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#timer span {
+  font-size: 22px;
+}
+#non-smoking {
+  width: 100%;
+  height: 150px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+#number {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  border: 1px solid black;
+}
+#money {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  border: 1px solid black;
+}
+#btn {
+  font-size: 20px;
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  box-shadow: 1px 1px 100px rgba(0, 0, 0, 0.5);
+}
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(167, 112, 41);
+}
+footer button {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#non-smoking_modal_wrap {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+}
+#non-smoking_modal {
+  text-align: center;
+  width: 500px;
+  height: 700px;
+  background-color: aqua;
+  margin: 0 auto;
+}
+#non-smoking_modal span {
+  font-size: 20px;
+}
+#health-modal_wrap {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+}
+#health-modal {
+  text-align: center;
+  width: 500px;
+  height: 700px;
+  background-color: red;
+  margin: 0 auto;
+}
+#health-modal span {
+  font-size: 20px;
+}
